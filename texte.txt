@@ -1,0 +1,11 @@
+ Pour ajouter un remote via Git Bash sur Windows, GITHUB oblige désormais à utiliser un token pour améliorer la sécurité : 
+
+ Pour ce faire, il faut aller sur settings, developer settions, Token, et générer un token classic
+
+ Attention, ne pas oublier de cocher les scopes visés par ce TOken (principalement ceux en relation avec le repo).
+
+ ensuite aller dans le git bash et utiliser la commande suivante : 
+
+ git remote add origin https://TOKEN@github.com/username/repo.git
+
+ Merci ! 
